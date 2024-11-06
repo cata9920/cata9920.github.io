@@ -115,12 +115,12 @@ div.aboutmephoto {
     position: absolute;
     width: 20vw;
     height: 60vh;
-    background-color: blue;
+    
     left: 5vw;
     top: 8vh;
     border-radius: 25px;
     background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url("Photos/profil.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     background-position-x: 0px;
