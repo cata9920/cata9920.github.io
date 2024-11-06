@@ -115,7 +115,7 @@ div.aboutmephoto {
     position: absolute;
     width: 20vw;
     height: 60vh;
-    
+    background-color: black;
     left: 5vw;
     top: 8vh;
     border-radius: 25px;
