@@ -141,11 +141,4 @@ function shownoprojects() {
 }
 
 
-// Just a test to see if transiotion really affects the " visibility : hidden " property
-/* textcontainer.addEventListener("click", function() {
-
-    spannr1.setAttribute("style","visibility : hidden");
-
-}); */
-
 
