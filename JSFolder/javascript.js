@@ -12,9 +12,10 @@ var x = document.getElementById("x");
 var o = document.getElementById("o");
 var y = document.getElementById("y");
 
-var project01 = document.getElementById("project01");
-var project02 = document.getElementById("project02");
-var project03 = document.getElementById("project03");
+var project01 = document.getElementById("project01")
+var project02 = document.getElementById("project02")
+var project03 = document.getElementById("project03")
+
 
 var textcontainer = document.getElementById("textcontainer");
 
@@ -102,7 +103,7 @@ function miniprojectsfunction() {
    
 
     textcontainer.setAttribute("style","visibility: initial");
-
+   
     let project01property = window.getComputedStyle(project01);
     let project02property = window.getComputedStyle(project02);
     let project03property = window.getComputedStyle(project03);
