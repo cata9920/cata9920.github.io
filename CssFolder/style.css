@@ -25,7 +25,7 @@ div.folie {
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/Photos/forest.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/home/lemon/PortofolioSite/Photos/forest.jpg");
 }
 
 div.up-container {
@@ -164,7 +164,7 @@ div.aboutmephoto {
     left: 5vw;
     top: 8vh;
     border-radius: 25px;
-    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url("/Photos/profile.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url("/home/lemon/PortofolioSite/Photos/profile.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -384,1172 +384,1374 @@ div#nr03:hover {
     color: rgb(125, 249, 255);
 }
 
-/* Telefoane mici */
-@media (max-width: 320px) and (min-width: 320px) {
-    /* Stiluri specifice pentru telefoane foarte mici */
+@media (min-width: 320px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
     div.title {
-        position: absolute;
-        left: 35%;
-        top: 70%;
-        font-size: 100%;
-        color: white;
-    }
-
-    div.AboutMeBox {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-        
-    }
-
-    div.AboutMeBox:hover {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-    }
-
-    div.MiniProjects {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
-    }
-
-    div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
-    }
-
-    p.formiddle {
-        position: relative;
-        top: 18%;
-    }
-
-    div.aboutmephoto {
-        position: absolute;
-        left: 10%;
-        top: 17%;
-        width: 80%;
-        height: 40%;
-        background-size: 100% 100%;
-    }
-
-    div.aboutmetextcontainer {
-        position: absolute;
-        left: 0%;
-        top: 60%;
-        width: 100%;
-        height: 60%;
-    
-    }
-    
-    span.aboutmetext {
-        position: relative;
-        margin: 10%;
-        left: 15%;
-        font-size: 300%;
-        
-    }
-
-    div.x {
-
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 10%;
-        top: 25%;
-        
-
-    }
-
-    div.o {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 38%;
-        top: 25%;
-    } 
-
-    div.y {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 66%;
-        top: 25%;
-    }
-
-    span#nr01 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-    }
-    
-    span#nr02 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-    
-    span#nr03 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-
-    div.textcontainer {
         position: absolute;
         left: 0%;
         top: 40%;
         width: 100%;
-        top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
-    }
-
-    div.project01 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project02 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project03 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-  }
-  
-  /* Telefoane medii */
-  @media (max-width: 375px) {
-    /* Stiluri specifice pentru telefoane standard */
-    div.title {
-        position: absolute;
-        left: 35%;
-        top: 70%;
-        font-size: 100%;
+        height: 100%;
+        font-size: 1.6rem;
         color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
     }
 
     div.AboutMeBox {
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-        
+        height: 2.5%;
     }
 
-    div.AboutMeBox:hover {
+    div.ContactMe {
         position: absolute;
-        left: 10%;
+        left: 35%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
+        height: 2.5%;
     }
 
     div.MiniProjects {
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
+        left: 65%;
         top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
     }
 
     div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
+        color: rgb(125, 249, 255);
         width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
+        height: 2.5%;
     }
 
     p.formiddle {
-        position: relative;
-        top: 18%;
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 5.5%
     }
 
     div.aboutmephoto {
         position: absolute;
-        left: 10%;
-        top: 17%;
-        width: 80%;
-        height: 40%;
-        background-size: 100% 100%;
+        box-shadow: 0px 0px 0px transparent;
+        left: 20%;
+        top: 20%;
+        width: 60%;
+        height: 25%;
     }
 
     div.aboutmetextcontainer {
         position: absolute;
+        box-shadow: 0px 0px 0px transparent;
         left: 0%;
-        top: 60%;
+        top: 50.5%;
         width: 100%;
-        height: 60%;
-    
+        border-radius: 0px;
+        font-weight: 0px;
     }
-    
-    span.aboutmetext {
-        position: relative;
-        margin: 10%;
-        left: 15%;
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
         font-size: 300%;
-        
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
     }
 
     div.x {
-
         position: absolute;
-        width: 20%;
-        height: 7%;
         left: 10%;
         top: 25%;
-        
-
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
     }
 
     div.o {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 38%;
-        top: 25%;
-    } 
-
-    div.y {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 66%;
-        top: 25%;
-    }
-
-    span#nr01 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-    }
-    
-    span#nr02 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-    
-    span#nr03 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-
-    div.textcontainer {
-        position: absolute;
-        left: 0%;
-        top: 40%;
-        width: 100%;
-        top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
-    }
-
-    div.project01 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project02 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project03 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-  }
-  
-  /* Telefoane mari */
-  @media (max-width: 414px) {
-    /* Stiluri pentru telefoane mari */
-    div.title {
         position: absolute;
         left: 35%;
-        top: 70%;
-        font-size: 100%;
-        color: white;
-    }
-
-    div.AboutMeBox {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-        
-    }
-
-    div.AboutMeBox:hover {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-    }
-
-    div.MiniProjects {
-        position: absolute;
+        top: 35%;
+        width: 35%;
         background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
     }
-
-    div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 3%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
-    }
-
-    p.formiddle {
-        position: relative;
-        top: 18%;
-    }
-
-    div.aboutmephoto {
-        position: absolute;
-        left: 10%;
-        top: 17%;
-        width: 80%;
-        height: 40%;
-        background-size: 100% 100%;
-    }
-
-    div.aboutmetextcontainer {
-        position: absolute;
-        left: 0%;
-        top: 60%;
-        width: 100%;
-        height: 60%;
-    
-    }
-    
-    span.aboutmetext {
-        position: relative;
-        margin: 10%;
-        left: 15%;
-        font-size: 300%;
-        
-    }
-
-    div.x {
-
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 10%;
-        top: 25%;
-        
-
-    }
-
-    div.o {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 38%;
-        top: 25%;
-    } 
 
     div.y {
         position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 66%;
+        left: 55%;
         top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
     }
 
-    span#nr01 {
+    div#nr01 {
         position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-    }
-    
-    span#nr02 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-    
-    span#nr03 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 25%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-
-    div.textcontainer {
-        position: absolute;
-        left: 0%;
-        top: 40%;
-        width: 100%;
-        top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
-    }
-
-    div.project01 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project02 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-
-    div.project03 {
-        position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
-    }
-  }
-  
-  /* Tablete mici */
-  @media (max-width: 600px) {
-    /* Stiluri pentru tablete mici */
-    div.title {
-        position: absolute;
-        left: 45%;
-        top: 70%;
         font-size: 100%;
         color: white;
-    }
-
-    div.AboutMeBox {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-        
-    }
-
-    div.AboutMeBox:hover {
-        position: absolute;
-        left: 10%;
-        top: 12%;
-        background-color: rgba(0,0,0,0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-    }
-
-    div.MiniProjects {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
-    }
-
-    div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
-    }
-
-    p.formiddle {
-        position: relative;
         top: 15%;
     }
 
-    div.aboutmephoto {
-        position: absolute;
-        left: 10%;
-        top: 17%;
-        width: 80%;
-        height: 40%;
-        background-size: 100% 100%;
-    }
-
-    div.aboutmetextcontainer {
-        position: absolute;
-        left: 0%;
-        top: 60%;
-        width: 100%;
-        height: 60%;
-    
-    }
-    
-    span.aboutmetext {
+    div#nr02 {
         position: relative;
-        margin: 10%;
-        left: 15%;
-        font-size: 200%;
-        
-    }
-
-    div.x {
-
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 10%;
-        top: 25%;
-        
-
-    }
-
-    div.o {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 38%;
-        top: 25%;
-    } 
-
-    div.y {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 66%;
-        top: 25%;
-    }
-
-    span#nr01 {
-        position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
+        top: 35%;
     }
-    
-    span#nr02 {
+
+    div#nr03 {
         position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-    
-    span#nr03 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
+        top: 35%;
     }
 
     div.textcontainer {
         position: absolute;
         left: 0%;
-        top: 40%;
-        width: 100%;
         top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
+        width: 100%;
+        border-radius: 0px;
     }
 
     div.project01 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project02 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project03 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
-  }
-  
-  /* Tablete medii */
-  @media (max-width: 768px) {
-    /* Stiluri pentru tablete de dimensiuni medii */
+}
+
+@media (min-width: 375px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
     div.title {
         position: absolute;
-        left: 45%;
-        top: 70%;
-        font-size: 100%;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        height: 100%;
+        font-size: 1.6rem;
         color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
     }
 
     div.AboutMeBox {
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
-        
+        height: 2.5%;
     }
 
-    div.AboutMeBox:hover {
+    div.ContactMe {
         position: absolute;
-        left: 10%;
+        left: 35%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 60%;
+        height: 2.5%;
     }
 
     div.MiniProjects {
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
+        left: 65%;
         top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
     }
 
     div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
+        color: rgb(125, 249, 255);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 60%;
-    
+        height: 2.5%;
     }
 
     p.formiddle {
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 5.5%
+    }
+
+    div.aboutmephoto {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 20%;
+        top: 20%;
+        width: 60%;
+        height: 25%;
+    }
+
+    div.aboutmetextcontainer {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 0%;
+        top: 50.5%;
+        width: 100%;
+        border-radius: 0px;
+        font-weight: 0px;
+    }
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
+        font-size: 300%;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
+    }
+
+    div.x {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.o {
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.y {
+        position: absolute;
+        left: 55%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div#nr01 {
         position: relative;
+        font-size: 100%;
+        color: white;
         top: 15%;
     }
 
-    div.aboutmephoto {
-        position: absolute;
-        left: 25%;
-        top: 17%;
-        width: 50%;
-        height: 40%;
-        background-size: 100% 100%;
-    }
-
-    div.aboutmetextcontainer {
-        position: absolute;
-        left: 0%;
-        top: 60%;
-        width: 100%;
-        height: 60%;
-    
-    }
-    
-    span.aboutmetext {
+    div#nr02 {
         position: relative;
-        margin: 10%;
-        left: 15%;
-        font-size: 180%;
-        
-    }
-
-    div.x {
-
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 10%;
-        top: 25%;
-        
-
-    }
-
-    div.o {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 38%;
-        top: 25%;
-    } 
-
-    div.y {
-        position: absolute;
-        width: 20%;
-        height: 7%;
-        left: 66%;
-        top: 25%;
-    }
-
-    span#nr01 {
-        position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
+        top: 35%;
     }
-    
-    span#nr02 {
+
+    div#nr03 {
         position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
-    }
-    
-    span#nr03 {
-        position: relative;
-        font-size: 180%;
-        color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
+        top: 35%;
     }
 
     div.textcontainer {
         position: absolute;
         left: 0%;
-        top: 40%;
-        width: 100%;
         top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
+        width: 100%;
+        border-radius: 0px;
     }
 
     div.project01 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project02 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project03 {
         position: absolute;
-        margin: 10%;
-        font-size: 70%;
-        width: 80%;
-        
+        width: 100%;
     }
-  }
-  
-  /* Tablete mari și laptopuri mici */
-  @media (max-width: 1024px) {
-    /* Stiluri pentru ecrane mari de tabletă și laptopuri mici */
+}
+
+@media (min-width: 414px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
     div.title {
         position: absolute;
-        left: 45%;
-        top: 70%;
-        font-size: 100%;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        height: 100%;
+        font-size: 1.6rem;
         color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
     }
 
     div.AboutMeBox {
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 80%;
-        
+        height: 2.5%;
     }
 
-    div.AboutMeBox:hover {
+    div.ContactMe {
         position: absolute;
-        left: 10%;
+        left: 35%;
         top: 12%;
-        background-color: rgba(0,0,0,0.4);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        overflow: hidden;
-        border: 2% solid black;
-        font-size: 80%;    }
+        height: 2.5%;
+    }
 
     div.MiniProjects {
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
+        left: 65%;
         top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 80%;
-    
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 2.5%;
     }
 
     div.MiniProjects:hover {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
+        color: rgb(125, 249, 255);
         width: 27%;
-        height: 4%;
-        text-align: center;
-        left: 60%;
-        top: 12%;
-        overflow: hidden;
-        border-radius: 20px;
-        border: 2px solid black;
-        transition: 1s;
-        font-size: 80%;
-    
+        height: 2.5%;
     }
 
     p.formiddle {
-        position: relative;
-        top: 5%;
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 5.5%
     }
 
     div.aboutmephoto {
         position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 20%;
+        top: 20%;
+        width: 60%;
+        height: 25%;
+    }
+
+    div.aboutmetextcontainer {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 0%;
+        top: 50.5%;
+        width: 100%;
+        border-radius: 0px;
+        font-weight: 0px;
+    }
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
+        font-size: 300%;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
+    }
+
+    div.x {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.o {
+        position: absolute;
         left: 35%;
-        top: 17%;
+        top: 35%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.y {
+        position: absolute;
+        left: 55%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div#nr01 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 15%;
+    }
+
+    div#nr02 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div#nr03 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div.textcontainer {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    div.project01 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project02 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project03 {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
+    div.title {
+        position: absolute;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        height: 100%;
+        font-size: 1.6rem;
+        color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
+    }
+
+    div.AboutMeBox {
+        position: absolute;
+        left: 5%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.ContactMe {
+        position: absolute;
+        left: 35%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.MiniProjects {
+        position: absolute;
+        left: 65%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.MiniProjects:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    p.formiddle {
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 5.5%
+    }
+
+    div.aboutmephoto {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 34%;
+        top: 20%;
         width: 30%;
-        height: 40%;
-        background-size: 100% 100%;
+        height: 25%;
     }
 
     div.aboutmetextcontainer {
         position: absolute;
+        box-shadow: 0px 0px 0px transparent;
         left: 0%;
-        top: 60%;
+        top: 50.5%;
         width: 100%;
-        height: 60%;
-    
+        border-radius: 0px;
+        font-weight: 0px;
     }
-    
-    span.aboutmetext {
-        position: relative;
-        margin: 10%;
-        left: 15%;
-        font-size: 160%;
-        
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
+        font-size: 300%;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
     }
 
     div.x {
-
         position: absolute;
-        width: 13%;
-        height: 8%;
         left: 10%;
         top: 25%;
-        
-
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
     }
 
     div.o {
         position: absolute;
-        width: 13%;
-        height: 8%;
-        left: 38%;
-        top: 25%;
-    } 
+        left: 35%;
+        top: 35%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 
     div.y {
         position: absolute;
-        width: 13%;
-        height: 8%;
-        left: 66%;
+        left: 55%;
         top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
     }
 
-    span#nr01 {
+    div#nr01 {
         position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
+        top: 35%;
     }
-    
-    span#nr02 {
+
+    div#nr02 {
         position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
+        top: 35%;
     }
-    
-    span#nr03 {
+
+    div#nr03 {
         position: relative;
-        font-size: 180%;
+        font-size: 100%;
         color: white;
-        left: 35%;
-        top: 22%;
-        transition: 0s;
-        border-radius: 0px;
-        
+        top: 35%;
     }
 
     div.textcontainer {
         position: absolute;
         left: 0%;
-        top: 40%;
-        width: 100%;
         top: 50%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 2% solid black;
+        width: 100%;
+        border-radius: 0px;
     }
 
     div.project01 {
         position: absolute;
-        margin: 10%;
-        font-size: 100%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project02 {
         position: absolute;
-        margin: 10%;
-        font-size: 100%;
-        width: 80%;
-        
+        width: 100%;
     }
 
     div.project03 {
         position: absolute;
-        margin: 10%;
-        font-size: 100%;
-        width: 80%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
+    div.title {
+        position: absolute;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        height: 100%;
+        font-size: 1.6rem;
+        color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
+    }
+
+    div.AboutMeBox {
+        position: absolute;
+        left: 5%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.ContactMe {
+        position: absolute;
+        left: 35%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.MiniProjects {
+        position: absolute;
+        left: 65%;
+        top: 12%;
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    div.MiniProjects:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+    }
+
+    p.formiddle {
+        font-size: 0.7rem;
+        text-align: center;
+        margin: 5.5%
+    }
+
+    div.aboutmephoto {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 33.5%;
+        top: 20%;
+        width: 30%;
+        height: 25%;
         
     }
-  }
-  
+
+    div.aboutmetextcontainer {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 0%;
+        top: 50.5%;
+        width: 100%;
+        border-radius: 0px;
+        font-weight: 0px;
+    }
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
+        font-size: 300%;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
+    }
+
+    div.x {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.o {
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.y {
+        position: absolute;
+        left: 55%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div#nr01 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div#nr02 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div#nr03 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div.textcontainer {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    div.project01 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project02 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project03 {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    div.up-container {
+        overflow: hidden;
+    }
+
+    div.title {
+        position: absolute;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        height: 100%;
+        font-size: 1.6rem;
+        color: white;
+        text-align: center;
+        background-color: transparent;
+        font-weight: 600;
+    }
+
+    div.AboutMeBox {
+        position: absolute;
+        left: 5%;
+        top: 12%;
+        width: 27%;
+        height: 4.5%;
+    }
+
+    div.ContactMe {
+        position: absolute;
+        left: 35%;
+        top: 12%;
+        width: 27%;
+        height: 4.5%;
+    }
+
+    div.MiniProjects {
+        position: absolute;
+        left: 65%;
+        top: 12%;
+        width: 27%;
+        height: 4.5%;
+    }
+
+    div.AboutMeBox:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+        height: 4.5%;
+    }
+
+    div.ContactMe:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+        height: 4.5%;
+    }
+
+    div.MiniProjects:hover {
+        color: rgb(125, 249, 255);
+        width: 27%;
+        height: 3.5%;
+        height: 4.5%;
+    }
+
+    p.formiddle {
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 5.5%
+    }
+
+    div.aboutmephoto {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 36.5%;
+        top: 20%;
+        width: 25%;
+        height: 25%;
+        
+    }
+
+    div.aboutmetextcontainer {
+        position: absolute;
+        box-shadow: 0px 0px 0px transparent;
+        left: 0%;
+        top: 50.5%;
+        width: 100%;
+        border-radius: 0px;
+        font-weight: 0px;
+    }
+
+    div.aboutmetextbox {
+        width: 100%;
+        font-weight: 0px;
+    }
+
+    div.aboutmetext {
+        font-size: 200%;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    div.contactcontainer {
+        top: 30%;
+        height: 70%;
+    }
+
+    div.x {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.o {
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div.y {
+        position: absolute;
+        left: 55%;
+        top: 25%;
+        width: 35%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    div#nr01 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div#nr02 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div#nr03 {
+        position: relative;
+        font-size: 100%;
+        color: white;
+        top: 35%;
+    }
+
+    div.textcontainer {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    div.project01 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project02 {
+        position: absolute;
+        width: 100%;
+    }
+
+    div.project03 {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) {
+    div.title {
+        position: absolute;
+        color: white;;
+    }
+
+    div.title {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left: 4.5%;
+        top: 27%;
+        font-size: 155%;
+    }
+    
+    div.javaicon {
+        position: relative;
+        background-color: blue;
+        background: rgba(0,0,0,0.0);
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        width: 4vw;
+        height: 4vw;
+        left: 2vw;
+        top: 1vh;
+    }
+    
+    div.AboutMeBox {
+        font-size: 1vw;
+        position: absolute;
+        background-color: rgba(0,0,0,0.4);
+        width: 9vw;
+        height: 3vw;
+        text-align: center;
+        left: 40vw;
+        top: 7vw;
+        overflow: hidden;
+        border-radius: 25px;
+        border: 2px solid black;
+        transition: 1s;
+    }
+    
+    div.AboutMeBox:hover {
+        width: 9.6vw;
+        height: 3.6vw;
+        font-size: 1.2vw;
+        background-color: black;
+        color: rgb(14, 213, 240);
+    }
+    
+    
+    div.ContactMe {
+        font-size: 1vw;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 9vw;
+        height: 3vw;
+        text-align: center;
+        left: 50%;
+        top: 7vw;
+        overflow: hidden;
+        border-radius: 20px;
+        border: 2px solid black;
+        transition: 1s;
+    
+    }
+    
+    div.ContactMe:hover {
+        width: 9.6vw;
+        height: 3.6vw;
+        font-size: 1.2vw;
+        background-color: black;
+        color: rgb(14, 213, 240);
+    }
+    
+    div.MiniProjects {
+        font-size: 1vw;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 9vw;
+        height: 3vw;
+        text-align: center;
+        left: 60%;
+        top: 7vw;
+        overflow: hidden;
+        border-radius: 20px;
+        border: 2px solid black;
+        transition: 1s;
+    
+    }
+    
+    
+    
+    div.MiniProjects:hover {
+        width: 9.6vw;
+        height: 3.6vw;
+        font-size: 1.2vw;
+        background-color: black;
+        color: rgb(14, 213, 240);
+    }
+    
+    div.contactcontainer {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0,0,0,0.6);
+        visibility: hidden;
+    }
+    
+    div.contactext {
+        margin: 5% 4%;
+        font-weight: 500;
+    }
+    
+    
+    p.formiddle {
+        position: relative;
+        font-size: 100%;
+        top: 10%;
+    }
+    
+    div.aboutmephoto {
+        position: absolute;
+        width: 20vw;
+        height: 60vh;
+        background-color: red;
+        left: 5vw;
+        top: 8vh;
+        border-radius: 25px;
+        background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url("/Photos/profile.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position-x: 0px;
+        border: 3px solid black;
+        box-shadow: 10px 10px 10px black;
+        visibility: hidden;
+        
+    }
+    
+    div.aboutmetextcontainer {
+        position: absolute;
+        width: 60vw;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.3);
+        left: 32.5vw;
+        top: 30vh;
+        border-radius: 25px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 10px 10px 10px black;
+        visibility: hidden;
+        scrollbar-width: 10px;
+        scrollbar-color: rgba(255,255,255,0.3) rgba(0,0,0,0.3);
+        
+        
+    }
+    
+    div.aboutmetextbox {
+        position: relative;
+        
+        left: 2vw;
+        top: 2.5vh;
+        width: 56vw;
+        height: 55vh;
+        font-size: 60%;
+    
+    }
+    
+    div.aboutmetext {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      justify-content: center;
+      padding: 1%;
+    }
+    
+    div.x {
+        position: absolute;
+        background-color: black;
+        width: 10%;
+        height: 7%;
+        left: 3%;
+        top: 32%;
+        border-radius: 15px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px black;
+        overflow: hidden;
+        
+        visibility: hidden;
+    }
+    
+    div.o {
+        position: absolute;
+        background-color: black;
+        width: 10%;
+        height: 7%;
+        left: 3%;
+        top: 44%;
+        border-radius: 15px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px black;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    
+    div.y {
+        position: absolute;
+        background-color: black;
+        width: 10%;
+        height: 7%;
+        left: 3%;
+        top: 56%;
+        border-radius: 15px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 10px black;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    
+    div.textcontainer {
+        position: absolute;
+        left: 28vw;
+        top: 15vw;
+        width: 50vw;
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px black;
+        visibility: hidden;
+        
+    }
+    
+    div.project01 {
+        position: absolute;
+        left: 2.5vw;
+        top: 2vw;
+        width: 45vw;
+        height: 41vh;
+        background-color: rgb(33, 11, 114,0);
+        overflow: hidden;
+        text-align: left;
+        justify-content: center;
+        visibility: hidden;
+    }
+    
+    div.project02 {
+        position: absolute;
+        left: 2.5vw;
+        top: 2vw;
+        width: 45vw;
+        height: 41vh;
+        background-color: rgb(33, 11, 114,0);
+        overflow: hidden;
+        text-align: left;
+        justify-content: center;
+        visibility: hidden;
+    }
+    
+    div.project03 {
+        position: absolute;
+        left: 2.5vw;
+        top: 2vw;
+        width: 45vw;
+        height: 41vh;
+        background-color: rgb(33, 11, 114,0);
+        overflow: hidden;
+        text-align: left;
+        justify-content: center;
+        visibility: hidden;
+    }
+    
+    p {
+        margin: 1vw;
+    }
+    
+    a {
+        margin: 1vw;
+        
+    }
+    
+    div#nr01 {
+        position: relative;
+        font-size: 100%;
+        font-weight: 400;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        top: 30%;
+        transition: 0s;
+    }
+    
+    div#nr02 {
+        position: relative;
+        font-size: 100%;
+        font-weight: 400;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        top: 30%;
+        transition: 0s;
+    }
+    
+    div#nr03 {
+        position: relative;
+        font-size: 100%;
+        font-weight: 400;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        top: 30%;
+        transition: 0s;
+    }
+    
+    div#nr01:hover {
+        color: rgb(125, 249, 255);
+    }
+    div#nr02:hover {
+        color: rgb(125, 249, 255);
+    }
+    div#nr03:hover {
+        color: rgb(125, 249, 255);
+    }
+}
+
+
+
+
