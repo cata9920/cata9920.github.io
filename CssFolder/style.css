@@ -899,7 +899,8 @@ div#nr03:hover {
 
 @media (min-width: 440px) {
     p.formiddle {
-        top: 30%;
+        top: 25%;
+        font-size: 100%;
     }
 }
 
