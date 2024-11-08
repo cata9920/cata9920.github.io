@@ -1543,8 +1543,8 @@ div#nr03:hover {
     
     p.formiddle {
         position: relative;
-        font-size: 100%;
-        top: 10%;
+        top: -6%;
+        font-size: 200%;
     }
     
     div.aboutmephoto {
